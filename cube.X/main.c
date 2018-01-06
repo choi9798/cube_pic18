@@ -143,7 +143,7 @@ void F() {
         surface_six[i] = surface_four[i];
         surface_four[i] = temp[i];
     }
-}
+} 
 
 // front rotate counterclockwise
 void Fi() {
