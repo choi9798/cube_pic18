@@ -80,7 +80,7 @@ void led_off()
             continue;
         }
         else if(mem[i] == 'e') {
-            RA5 = 0;
+            RA0 = 0;
             continue;
         }
         else if(mem[i] == 'f') {
@@ -169,8 +169,8 @@ void led_off()
         RA3 = 0;
     else if(RA4 == 1)
         RA4 = 0;
-    else if(RA5 == 1)
-        RA5 = 0;
+    else if(RA0 == 1)
+        RA0 = 0;
     else if(RE0 == 1)
         RE0 = 0;
     if(RE1 == 1)
@@ -238,7 +238,7 @@ void whatled()
             continue;
         }
         else if(a[i] == 'e') {
-            RA5 = 1;
+            RA0 = 1;
           //  mem[i] = a[i];
             continue;
         }
